@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario pizzas</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>La pizza</legend>
+            <h3>Ingredientes</h3>
+           <div> 
+            <label>
+            <input type="checkbox" name="ingredientes" value="queso"> 
+        </label>Queso
+        </div>
+
+        <div>
+        <label>
+            <input type="checkbox" name="ingredientes" value="pimiento">
+        </label>Pimiento
+        </div>
+
+       <div>
+        <label>
+            <input type="checkbox" name="ingredientes" value="cebolla">
+        </label>Cebolla
+        </div>
+
+       
+
+        <h3>Tamaño</h3>
+       <div>
+        <label>
+            <input type="radio" name="tamaño" value="pequeña">
+        </label>Pequeña
+        </div>
+
+        <div>
+        <label>
+            <input type="radio" name="tamaño" value="mediana">
+        </label>Mediana
+        </div>
+
+       <div>
+        <label>
+            <input type="radio" name="tamaño" value="grande">
+        </label>Grande
+        </div>
+
+
+
+    </fieldset>
+    <fieldset>
+        <legend>Datos de entrega</legend>
+        <div>
+        <label for="name">Nombre
+            <input type="text" id="name">
+        </label>
+        </div>
+       <div>
+        <label>Dirección
+            <input type="text">
+        </label>
+        </div>
+        <div>
+        <label>Teléfono
+            <input type="tel">
+        </label>
+        </div>
+        <div>
+        <label for="message">Instrucciones especiales</label>
+        </div>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+
+
+        
+
+    
+
+    
+        
+</fieldset>
+<fieldset>
+    <legend>Métodos de pago</legend>
+    <select name="metodos de pago">
+        <option value="efectivo">Efectivo</option>
+        <option value="pago movil">Pago móvil</option>
+        <option value="transferencia">Transferencia</option>
+        <option value="binance">Binance</option>
+        <option value="zelle">Zelle</option>
+        
+    </select>
+</fieldset>
+<button>OK</button>
+    
+    
+    
+</form>
+
+</body>
+</html>
+
+            

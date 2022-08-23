@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de preferencias</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Preferencias</legend>
+        <div>
+        <label>Elija una fecha 
+            <input type="date">
+        </label>
+        </div>
+        <div>
+        <label>
+            <input type="checkbox" name="preferencias" value="100 mbits">
+        </label>100 Mbits
+        </div>
+        <div>
+        <label>
+            <input type="checkbox" name="preferencias" value="1000 mbits">
+        </label>1000 Mbits
+        </div>
+        <div>
+        <select name="preferencias" multiple>
+            <option value="kde">KDE</option>
+            <option value="gnome">GNOME</option>
+            <option value="unity">Unity</option>
+        </select>
+        </div>
+        <div>
+        <label>Elija un color
+            <input type="color">
+        </label>
+        </div>
+        <div>
+        <label>Elija un fichero 
+            <input type="file">
+        </label>
+        </div>
+        <div>
+        <label for="name">Instituto
+            <input type="text" id="name">
+        </label>
+        </div>
+        <div>
+            <label>Estudios elegidos
+                <input type="text">
+            </label>
+            </div>
+            <div>
+                <label>Nombre
+                    <input type="text">
+                </label>
+                </div>
+                <div>
+                    <label>Apellidos
+                        <input type="text">
+                    </label>
+                    </div>
+                    <div>
+                        <label>Email
+                            <input type="email">
+                        </label>
+                        </div>
+
+                       <div>
+                        <label>
+                            <input type="radio" name="preferencias" value="jpg">
+                        </label>JPG
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="preferencias" value="png">
+                            </label>PNG
+                            </div>
+
+
+
+    </fieldset>
+</body>
+</html>

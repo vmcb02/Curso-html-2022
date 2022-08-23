@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de preferencias</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Completar</legend>
+            <label for="name">DNI
+                <input type="number" id="name">
+
+            </label>
+            <label>Nombre
+                <input type="text">
+            </label>
+            <label>Apellidos
+                <input type="text">
+            </label>
+            <label>Email
+                <input type="email">
+            </label>
+            <div>
+            <label>
+                <input type="radio" name="completar" value="intel">
+            </label>Intel
+            </div>
+            <div>
+            <label>
+                <input type="radio" name="completar" value="amd">
+            </label>AMD
+            </div>
+
+           
+           <div>
+            <label>Elija una Hora
+                <input type="time">
+            </label>
+            </div>
+
+            
+            <div>
+            <label>
+                <input type="checkbox" name="completar" value="lunes">
+            </label>Lunes
+            </div>
+            <div>
+            <label>
+                <input type="checkbox" name="completar" value="martes">
+            </label>Martes
+            </div>
+            <div>
+            <label>
+                <input type="checkbox" name="completar" value="miercoles">
+            </label>Miércoles
+            </div>
+            <div>
+            <label>
+                <input type="checkbox" name="completar" value="jueves">
+            </label>Jueves
+            </div>
+            <div>
+            <label>
+                <input type="checkbox" name="completar" value="sabado">
+            </label>Sábado
+            </div>
+            <div>
+            <label>Elija un fichero
+                <input type="file">
+            </label>
+            </div>
+            <div>
+            <label>Elija una fecha 
+                <input type="date">
+            </label>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <select name="preferencias" multiple>
+                <option value="smir">SMIR</option>
+                <option value="asir">ASIR</option>
+                <option value="dam">DAM</option>
+                <option value="daw">DAW</option>
+            </select>
+            <div>
+            <textarea name="message" id="message" cols="60" rows="10"></textarea>
+            </div>
+            <label>
+                <input type="radio" name="indique sus preferencias por favor" value="albacete">
+            </label>Albacete
+            <label>
+                <input type="radio" name="indique sus preferencias por favor" value="ciudad real">
+            </label>Ciudad Real
+            <label>
+                <input type="radio" name="indique sus preferencias por favor" value="cuenca">
+            </label>Cuenca
+            <label>
+                <input type="radio" name="indique sus preferencias por favor" value="guadalajara">
+            </label>Guadalajara
+            <label>
+                <input type="radio" name="indique sus preferencias por favor" value="toledo">
+            </label>Toledo
+            <div>
+            <label>Elija una hora
+                <input type="time">
+            </label>
+            </div>
+            <div>
+            <label>Elija un color
+                <input type="color">
+            </label>
+            </div>
+
+        
+        </fieldset>
+    </form>
+    
+</body>
+</html>

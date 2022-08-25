@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido Embebido</title>
+    <style>
+    img{
+        max-width: 50%
+    }
+    
+    </style>
+    <style></style>
+</head>
+<body>
+
+    <h1>Contenido Embebido</h1>
+    <img src="assets/images/Desert.jpg" alt="Desierto">
+    <img srcset="assets/images/Penguins.webp" alt="Penguins">
+    <picture>
+        <sources rcset="assets/images/Penguins.webp"  > 
+            <img src="assets/images/Penguins.jpg" alt="">
+            <source srcset="assets/images/Tulips.webp"media="(max-width:1200px)">
+            <img src="assets/images/Tulips.jpg" alt="">
+    </picture> 
+    <audio src="assets/audio/Bad Bunny – Soy Peor.mp3" controls autoplay muted></audio>
+    <video src="assets/video/Pexels Videos 2308576.mp4" controls muted loop poster="assets/images/Penguins.webp"></video> 
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_PdogVJx9Iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
